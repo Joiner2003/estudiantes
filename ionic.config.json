@@ -1,0 +1,8 @@
+{
+  "name": "estudiantes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "41cfe9e9"
+}
