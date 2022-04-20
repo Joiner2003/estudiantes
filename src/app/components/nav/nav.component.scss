@@ -58,7 +58,7 @@ ion-menu ion-content {
   }
   
   ion-menu.md ion-item ion-icon {
-    color: #616e7e;
+    color: var(--ion-color-primary);
   }
   
   ion-menu.md ion-item ion-label {

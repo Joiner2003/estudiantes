@@ -7,15 +7,16 @@ import { MenuController } from '@ionic/angular';
 })
 export class NavComponent {
 
-  public appPages = [
-    { title: 'Inbox', url: '/folder/Inbox', icon: 'mail' },
-    { title: 'Outbox', url: '/folder/Outbox', icon: 'paper-plane' },
-    { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
-    { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
-    { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
-    { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
+  public appPagesInstructor = [
+    { title: 'Mis fichas', url: '/fichas', icon: 'school' },
+    { title: 'Horario', url: '/horario', icon: 'clipboard' },
+    { title: 'Aprendices', url: '/aprendices', icon: 'people' }
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
+  public appPagesAdmin = [
+    { title: 'Fichas', url: '/fichas', icon: 'school' },
+    { title: 'Instructores', url: '/instructores', icon: 'people' },
+    { title: 'Aprendices', url: '/aprendices', icon: 'person' }
+  ];
   constructor() {}
 }
   

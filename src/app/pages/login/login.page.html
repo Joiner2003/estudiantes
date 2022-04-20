@@ -1,10 +1,35 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
-  <h1>Login</h1>
+<ion-content scrollY="false">
+  <ion-grid>
+    <ion-row>
+      <ion-col class="dm-none"></ion-col>
+      <ion-col class="ion-align-self-center">
+        <ion-card mode="ios">
+          <ion-card-header>
+            <ion-img class="md-none" src=".//src/assets/login/img/login.png" ></ion-img>
+            <br>
+            <ion-card-title align="center">Login</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+      
+            <ion-item>
+              <ion-label position="floating">Correo electronico</ion-label>
+              <ion-input type="email"></ion-input>
+            </ion-item>
+      
+            <ion-item>
+              <ion-label position="floating">Contraseña</ion-label>
+              <ion-input type="password"></ion-input>
+            </ion-item>
+      
+            <br>
+      
+            <ion-button expand="block">Ingresar</ion-button>
+        
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col class="dm-none"></ion-col>
+    </ion-row>
+  </ion-grid>
+ 
 </ion-content>
