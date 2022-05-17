@@ -7,6 +7,7 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
+
 //componentes 
 import { NavComponent } from './components/nav/nav.component';
 import { LoginLayoutComponent } from './layout/login-layout/login-layout.component';
